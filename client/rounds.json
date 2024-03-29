@@ -1,0 +1,52 @@
+[
+    {
+        "animals": {
+            "rat": 3
+        },
+        "delay": "long"
+    },
+    {
+        "animals": {
+            "rat": 80
+        },
+        "delay": "short"
+    },
+    {
+        "animals": {
+            "rat": 1,
+            "cat": 15
+        },
+        "delay": "short"
+    },
+    {
+        "animals": {
+            "rat": 100,
+            "cat": 15
+        },
+        "delay": "short"
+    },
+    {
+        "animals": {
+            "rat": 100,
+            "cat": 15,
+            "giraffe": 1
+        },
+        "delay": "short"
+    },
+    {
+        "animals": {
+            "rat": 1000,
+            "cat": 150,
+            "giraffe": 100
+        },
+        "delay": "short"
+    },
+    {
+      "animals": {
+          "rat": 10000,
+          "cat": 1500,
+          "giraffe": 500
+      },
+      "delay": "short"
+  }
+]

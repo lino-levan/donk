@@ -1,0 +1,12 @@
+{
+    "tasks": {
+        "server": "deno run -A --watch ./server/main.ts",
+        "dev:client": "deno run -A --watch ./client.ts",
+        "dev:style": "deno run -A npm:tailwindcss -i ./client/public/main.css -o ./dist/main.css",
+    },
+    "imports": {
+        "@discord/embedded-app-sdk": "npm:@discord/embedded-app-sdk",
+        "socket.io-client": "npm:socket.io-client@4.7.5",
+        "tailwindcss": "npm:tailwind",
+    }
+}
